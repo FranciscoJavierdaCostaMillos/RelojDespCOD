@@ -20,7 +20,7 @@ public class Alarma {
     }
 
     /**
-     * Método para activar la alarma
+     * Activar
      */
     public static void AlarmaActiva() {
          JOptionPane.showMessageDialog(null, "Alarma sonando");

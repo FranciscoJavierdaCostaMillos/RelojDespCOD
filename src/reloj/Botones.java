@@ -26,7 +26,7 @@ public class Botones {
     }
 
     /**
-     * Muestra si la alarma está activada
+     * Ver Alarma Activada
      */
     public static void alarmaOn() {
         Display.MostrarLed(false, true);
@@ -36,14 +36,14 @@ public class Botones {
     }
 
     /**
-     * Apaga todos los leds del reloj
+     * Apaga leds
      */
     public static void alarmaOff() {
         Display.MostrarLed(false, false);
     }
 
     /**
-     * Metodo que suma una hora
+     * Sumar hora
      */
     public static void plusHr() {
         Reloj.horaActual = Reloj.horaActual.plusHours(1);
@@ -51,7 +51,7 @@ public class Botones {
     }
 
     /**
-     * Metodo que suma un minuto
+     * Suma minutos
      */
     public static void plusMin() {
         Reloj.horaActual = Reloj.horaActual.plusMinutes(1);
@@ -59,7 +59,7 @@ public class Botones {
     }
 
     /**
-     * Metodo que resta una hora
+     * Restar hora
      */
     public static void minHr() {
         Reloj.horaActual = Reloj.horaActual.minusHours(1);
@@ -67,7 +67,7 @@ public class Botones {
     }
 
     /**
-     * Metodo que resta un minuto
+     * Restar minuto
      */
     public static void minMin() {
         Reloj.horaActual = Reloj.horaActual.minusMinutes(1);
@@ -75,7 +75,7 @@ public class Botones {
     }
 
     /**
-     * Método que enciende el led de configuracion de hora
+     * Encender led hora
      */
     public static void configurarHora() {
         Display.MostrarLed(true, false);
@@ -83,7 +83,7 @@ public class Botones {
     }
 
     /**
-     * Método que enciende el led de configuracion de alarma
+     * Encender led de config
      */
     public static void configurarAlarma() {
         Display.MostrarLed(false, true);
@@ -91,7 +91,7 @@ public class Botones {
     }
 
     /**
-     * Método para parar la alarma
+     * Parar la alarma
      */
     public static void stopAlarma() {
         Reloj.timer.cancel();
