@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author kevin
+ * @author Javi
  */
 public class Reloj {
 

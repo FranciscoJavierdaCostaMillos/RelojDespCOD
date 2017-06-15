@@ -7,7 +7,7 @@ package reloj;
 
 /**
  *
- * @author kevin
+ * @author Javi
  */
 public class Botones {
 
